@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/Projects/python/api/src'
+PROJECT_BASE_PATH='/home/sanydge/Projects/python/api/src'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate
